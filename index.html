@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Andrew Sotskyi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+  
+    <header
+      id="header"
+      class="animated slideInDown"
+      style="animation-delay:1.4s;"
+    >
+      <table>
+        <tr>
+          <a href="#contact"><td id="logo">Andrew Sotskyi</td></a>
+          <td id="navigation">
+            <a href="#work">work</a>
+            <a href="#bio">about</a>
+            
+            <a href="#contact">contact</a>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <table id="top_part">
+      <tr>
+        <td
+          id="about"
+          class="animated slideInLeft"
+          style="animation-delay:0.8s;"
+        >
+          <h2>Software-developer</h2>
+          <a href="#contact"  class="btn_one">Hire Me</a><br />
+          <table>
+            <tr>
+              <td class="animated zoomIn" style="animation-delay:2.2s;">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100008423164982"
+                  class="social"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </td>
+              <td class="animated zoomIn" style="animation-delay:2.4s;">
+                <a href="https://t.me/SotskyiTelega" class="social"
+                  ><i class="fab fa-telegram"></i
+                ></a>
+              </td>
+              <td class="animated zoomIn" style="animation-delay:2.6s;">
+                <a href="#contact" class="social"
+                  ><i class="fas fa-envelope-square"></i
+                ></a>
+              </td>
+              <td class="animated zoomIn" style="animation-delay:2.8s;">
+                <a href="https://github.com/Sotskyi" class="social"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td
+          id="rightImage"
+          class="animated jackInTheBox"
+          style="animation-delay:0.4s;"
+        ></td>
+      </tr>
+    </table>
+
+    <div id="work">
+      <h1>work</h1>
+      <div id="projects-wrapper">
+        <a href="https://cheap-gas.cf/#">
+          <img onclick="magnify($(this).attr('src'))" src="./cheap-gas.png" />
+        </a>
+
+        <a href="https://currency-converter-26396.firebaseapp.com/">
+          <img
+            onclick="magnify($(this).attr('src'))"
+            src="./currency-exchange.png"
+          />
+        </a>
+        <a href="https://blackjack-382aa.firebaseapp.com/">
+          <img onclick="magnify($(this).attr('src'))" src="black-jack.png" />
+        </a>
+      </div>
+    </div>
+    <div id="bio">
+      <h1>about</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+    <div id="contact">
+      <h1>contact</h1>
+      <table>
+        <tr>
+          <td>
+            <div id="inner_div">
+              <table id="inner_table">
+                <tr>
+                  <td><i class="fas fa-phone"></i> &nbsp; +224 704 6097</td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fas fa-at"></i> &nbsp; andrewsotskyi@gmail.com
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                  <td>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div id="address">
+                      902 N Richmond st,<br />
+                      Chicago,IL 60622 <br />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100008423164982"
+                      class="social"
+                      ><i class="fab fa-facebook"></i
+                    ></a>
+                    <a href="https://t.me/SotskyiTelega" class="social"
+                      ><i class="fab fa-telegram"></i
+                    ></a>
+                    <a href="https://github.com/Sotskyi" class="social"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+          <td>
+            <form
+              id="my-form"
+              action="https://formspree.io/xeqkeazb"
+              method="POST"
+            >
+              <input type="text" name="name" placeholder="name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="email"
+                required
+                spellcheck="false"
+              /><br />
+              <textarea
+                type="text"
+                name="message"
+                placeholder="your message"
+                required
+                rows="5"
+              ></textarea
+              ><br />
+              <button id="my-form-button" class="btn_one">send</button>
+              <p id="my-form-status"></p>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="footer">
+      All rights reserved <br />
+      <a >@2020</a>
+    </div>
+    <script src="index.js"></script>
+    <script src="sendEmail.js"></script>
+  </body>
+</html>
