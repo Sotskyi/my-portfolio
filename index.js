@@ -34,15 +34,6 @@ window.onscroll = function() {
   }
 };
 
-function closemagnify() {
-  $("#magnify").addClass("animated fadeOut");
-  setTimeout(function() {
-    $("#magnify").css("display", "none");
-    $("#magnify").removeClass("animated fadeOut");
-    $("#img_here").css("background", `url('') center center`);
-  }, 800);
-}
-
 setTimeout(function() {
   $("#loading").addClass("animated fadeOut");
   setTimeout(function() {
