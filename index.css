@@ -302,13 +302,13 @@ button:focus {
 
     padding: 0px 4%;
   }
-  #about table {
+  /* #about table {
     width: 100%;
     margin-top: 6vh;
-  }
-  #about table tr td {
+  } */
+  /* #about table tr td {
     text-align: center;
-  }
+  } */
   .btn_one {
     padding: 6px 30px;
     width: 28%;
